@@ -27,7 +27,7 @@ make
 
 ### For details
 
-Please visit [here]()
+Please visit [here](doc/Notes.md)
 
 
 
