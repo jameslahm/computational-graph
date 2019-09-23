@@ -1,0 +1,169 @@
+10
+x C -6.7399
+q P
+ckd V -3.3918
+f P
+b C 1.5921
+e C 0.0000
+wjk C -6.0157
+bje V -4.1835
+nfv V -5.5914
+l V 0.0000
+96
+zp = ASSERT ckd
+th = BIND nfv zp
+w = ckd + x
+qx = GRAD w
+tm = ASSERT w
+ze = GRAD w
+tm = BIND x tm
+mug = BIND b zp
+m = ze AT x
+hfd = ASSERT bje
+ztx = qx AT x
+v = qx AT x
+w = ze AT x
+zp = BIND nfv zp
+d = qx AT x
+t = ASSERT l
+gbe = qx AT x
+mug = BIND w t
+mug = ze AT x
+qx = qx AT x
+no = BIND nfv hfd
+w = ASSERT f
+mug = ze AT x
+tm = ze AT x
+m = ze AT x
+d = BIND wjk t
+t = BIND bje hfd
+no = ze AT x
+tm = BIND x w
+gbe = ze AT x
+v = ze AT x
+mug = ze AT x
+j = f * no
+v = l * l
+kv = BIND bje hfd
+th = GRAD v
+j = BIND q w
+t = BIND no hfd
+hfd = ze AT x
+bwa = BIND ckd w
+ztx = hfd + qx
+no = th AT l
+ztx = no + e
+th = ze AT x
+qx = BIND no w
+w = ASSERT hfd
+kv = BIND b w
+w = BIND no w
+iox = x + nfv
+ztx = ckd + tm
+ztx = nfv + b
+kv = ze AT x
+kv = ze AT x
+tm = ASSERT w
+ze = BIND q tm
+t = BIND gbe tm
+m = BIND w tm
+zp = GRAD ztx
+ztx = BIND ztx tm
+m = qx * wjk
+th = GRAD iox
+m = d * bwa
+no = BIND t tm
+tm = th AT x
+d = zp AT b
+k = ASSERT q
+t = BIND m k
+th = th AT x
+iox = zp AT b
+j = BIND ztx k
+hfd = ASSERT v
+mug = zp AT b
+v = ASSERT t
+ze = ASSERT b
+no = zp AT b
+th = zp AT b
+d = ckd * kv
+m = zp AT b
+v = zp AT b
+d = zp AT b
+v = ASSERT nfv
+th = BIND w v
+mug = BIND gbe k
+k = qx + m
+bwa = ASSERT qx
+qx = w + qx
+zp = BIND b v
+mug = BIND l ze
+kv = ztx * ztx
+qx = BIND mug ze
+no = ASSERT th
+iox = ASSERT x
+hfd = ASSERT m
+w = BIND bje no
+zp = BIND qx ze
+d = BIND q ze
+60
+SETCONSTANT nfv -2.1393
+EVAL zp
+EVAL j 1 q -6.8850
+EVAL th
+EVAL l
+EVAL bje
+EVAL ztx
+EVAL th
+EVAL b
+EVAL wjk
+EVAL x
+EVAL qx
+EVAL m
+SETANSWER bje 5
+SETCONSTANT ckd -6.4890
+EVAL m
+EVAL e
+SETANSWER l 12
+EVAL bje
+EVAL qx
+EVAL wjk
+EVAL d 1 q -6.5652
+SETANSWER ckd 11
+EVAL t 2 f -6.8753 q 1.1654
+SETCONSTANT ckd 0.0000
+SETANSWER nfv 13
+EVAL l
+EVAL x
+EVAL j 1 q 1.5385
+EVAL tm
+EVAL bje
+EVAL l
+EVAL m
+EVAL j 1 q 1.6801
+SETCONSTANT l -1.2561
+EVAL k 1 f 0.0000
+EVAL q 1 q -7.2624
+EVAL ckd
+EVAL q 1 q 0.0000
+EVAL e
+EVAL x
+SETANSWER nfv 40
+EVAL bje
+EVAL f
+SETCONSTANT l -5.8671
+EVAL zp
+EVAL nfv
+EVAL gbe
+EVAL zp
+EVAL j 1 q -2.1940
+EVAL q
+EVAL gbe
+EVAL nfv
+EVAL bje
+EVAL f 1 f -5.5176
+EVAL w
+EVAL b
+EVAL kv
+EVAL q 1 q 0.0000
+EVAL t 2 f -7.5542 q 1.7372

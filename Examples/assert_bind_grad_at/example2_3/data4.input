@@ -1,0 +1,146 @@
+4
+k C 0.0000
+v C -3.7394
+fv V -5.7119
+amd V 0.0000
+64
+fhd = ASSERT amd
+wsp = ASSERT fv
+oq = ASSERT v
+ysv = ASSERT fv
+r = v * k
+wsp = ASSERT v
+ew = v + k
+bx = GRAD ew
+t = BIND k ysv
+qa = BIND t ysv
+zjw = BIND fv ysv
+fhd = BIND amd oq
+nid = bx AT k
+ew = GRAD r
+te = bx AT k
+r = BIND r ysv
+nd = bx AT k
+kch = bx AT k
+r = bx AT k
+ws = bx AT k
+ew = bx AT k
+lqy = bx AT k
+nd = ASSERT ws
+zjw = bx AT k
+fhd = bx AT k
+t = bx AT k
+nd = bx AT k
+mv = fhd + ws
+zjw = bx AT k
+o = ws + t
+wsp = k + v
+drv = nd + wsp
+te = ASSERT mv
+o = bx AT k
+bx = bx AT k
+ew = BIND wsp ysv
+mv = BIND zjw ysv
+phq = ASSERT mv
+te = BIND nid phq
+n = ASSERT ew
+oq = GRAD wsp
+phq = ASSERT k
+oq = ASSERT qa
+bx = BIND ew n
+ew = BIND nid n
+t = BIND kch phq
+mv = BIND mv ysv
+n = ASSERT r
+nid = BIND nd n
+t = BIND v phq
+mv = ASSERT lqy
+nd = BIND drv n
+mv = drv + nd
+nid = ASSERT ws
+for = ASSERT ws
+nd = BIND o for
+ew = BIND t n
+fhd = ASSERT amd
+nid = BIND wsp oq
+zjw = ws + amd
+fhd = ASSERT qa
+lqy = ASSERT qa
+ws = BIND ew fhd
+o = ASSERT fv
+75
+EVAL kch
+EVAL k
+EVAL v
+EVAL bx
+EVAL ew
+EVAL k
+EVAL v
+EVAL wsp
+EVAL amd
+EVAL nd
+EVAL wsp
+EVAL v
+EVAL mv
+EVAL qa
+EVAL ws
+EVAL k
+SETCONSTANT amd 1.1772
+EVAL bx
+EVAL k
+EVAL fv
+EVAL t
+SETCONSTANT amd -4.2501
+EVAL bx
+EVAL t
+EVAL mv
+EVAL te
+EVAL mv
+EVAL zjw
+EVAL qa
+EVAL ws
+SETCONSTANT amd -6.8253
+SETCONSTANT fv -4.0095
+EVAL ws
+EVAL k
+EVAL nd
+EVAL ew
+EVAL drv
+EVAL zjw
+SETCONSTANT amd -0.4966
+EVAL ws
+EVAL bx
+EVAL t
+SETANSWER amd 6
+EVAL drv
+EVAL te
+EVAL nd
+EVAL ws
+EVAL t
+EVAL r
+EVAL kch
+EVAL fv
+EVAL fv
+EVAL nid
+SETCONSTANT fv 1.4558
+EVAL t
+EVAL mv
+EVAL ew
+EVAL nid
+EVAL v
+SETCONSTANT amd -0.8474
+SETANSWER amd 49
+EVAL nid
+EVAL te
+EVAL mv
+EVAL ew
+EVAL te
+EVAL qa
+EVAL ws
+EVAL ew
+SETANSWER fv 67
+EVAL nd
+SETCONSTANT fv -5.3555
+EVAL qa
+EVAL qa
+EVAL r

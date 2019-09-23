@@ -1,0 +1,170 @@
+9
+hz P s1
+ta C 0.0000 s1
+nx V 0.0000 s1
+cb V 0.0000 s1
+mtz C 0.0000 s1
+kxe V -1.3886 s1
+pmx P s1
+di C 0.8365 s1
+htu P s1
+n
+69
+ix = LOG hz s1
+s = ASSERT ix s1
+jp = BIND cb s s1
+ou = BIND cb s s1
+grp = LOG jp s1
+ldo = SIN di s1
+ou = SIN hz s1
+s = PRINT jp s1
+ldo = ou * ix s1
+omu = pmx * pmx s1
+hja = PRINT pmx s1
+ldo = TANH cb s1
+nis = pmx + cb s1
+i = SIGMOID hja s1
+jp = PRINT di s1
+jp = TANH ou s1
+ix = cb * ta s1
+nc = ASSERT nx s1
+acq = BIND ta nc s1
+n = BIND jp nc s1
+n = grp * grp s1
+ix = ASSERT ix s1
+e = BIND acq nc s1
+hja = BIND e nc s1
+i = BIND n nc s1
+fn = EXP di s1
+ix = EXP htu s1
+ldo = BIND n nc s1
+hta = EXP e s1
+ou = TANH ix s1
+n = BIND cb nc s1
+l = TANH e s1
+e = PRINT e s1
+kz = acq + di s1
+l = BIND ou nc s1
+n = BIND hta nc s1
+ix = BIND di nc s1
+u = BIND ou nc s1
+kz = TANH kxe s1
+w = BIND hz nc s1
+hja = ou + pmx s1
+nc = PRINT ta s1
+i = htu + nis s1
+s = e + di s1
+fn = SIN grp s1
+n = cb + pmx s1
+jp = SIN kz s1
+xr = TANH nis s1
+ldo = nx + ldo s1
+ou = ASSERT ta s1
+acq = TANH i s1
+u = LOG u s1
+acq = EXP hta s1
+ix = TANH kxe s1
+jp = SIN kxe s1
+nis = BIND kz ou s1
+i = LOG nx s1
+fn = BIND cb ou s1
+omu = EXP u s1
+nc = EXP mtz s1
+ldo = PRINT kz s1
+jp = jp * pmx s1
+hja = BIND nc ou s1
+ldo = BIND w ou s1
+e = BIND xr ou s1
+nc = BIND xr ou s1
+n = TANH htu s1
+kz = nc * i s1
+w = LOG grp s1
+86
+EVAL kz 1 pmx 0.0000 s1
+EVAL jp 1 pmx -3.0916 s1
+EVAL fn 0 s1
+EVAL di 0 s1
+SETANSWER kxe 4 s1
+EVAL n 1 htu 0.0000 s1
+EVAL hta 0 s1
+SETCONSTANT kxe -5.8477 s1
+EVAL l 1 htu 0.0000 s1
+EVAL n 1 htu -0.3912 s1
+EVAL nx 0 s1
+EVAL ldo 1 hz 1.4922 s1
+EVAL n 1 htu 0.1659 s1
+SETANSWER nx 10 s1
+EVAL n 1 htu -6.1433 s1
+EVAL hja 0 s1
+EVAL hja 0 s1
+EVAL di 0 s1
+EVAL cb 0 s1
+EVAL ta 0 s1
+EVAL l 1 htu -1.1637 s1
+EVAL w 1 hz 1.9722 s1
+EVAL ta 0 s1
+SETANSWER kxe 13 s1
+EVAL cb 0 s1
+EVAL nis 0 s1
+EVAL u 1 htu -0.0314 s1
+EVAL e 1 pmx -1.8082 s1
+EVAL omu 1 htu -7.0714 s1
+EVAL hz 1 hz 0.0000 s1
+EVAL pmx 0 s1
+EVAL w 1 hz 0.0000 s1
+EVAL omu 1 htu -7.5498 s1
+EVAL mtz 0 s1
+EVAL kz 1 pmx -4.7900 s1
+EVAL nc 1 pmx 0.0000 s1
+SETANSWER cb 11 s1
+EVAL hja 0 s1
+EVAL n 1 htu -0.3988 s1
+EVAL cb 0 s1
+EVAL nis 0 s1
+SETCONSTANT cb 0.0000 s1
+EVAL cb 0 s1
+EVAL kz 1 pmx 1.5889 s1
+EVAL jp 1 pmx -3.6007 s1
+EVAL hja 0 s1
+EVAL kxe 0 s1
+EVAL ldo 1 hz -2.0044 s1
+EVAL n 1 htu 0.0000 s1
+EVAL hja 0 s1
+SETCONSTANT nx -0.0189 s1
+EVAL ldo 1 hz 0.0000 s1
+EVAL nc 1 pmx 0.0000 s1
+EVAL kxe 0 s1
+EVAL kxe 0 s1
+EVAL e 1 pmx -6.4663 s1
+EVAL jp 1 pmx 0.0000 s1
+EVAL grp 1 hz -2.1095 s1
+EVAL u 1 htu -5.4518 s1
+EVAL xr 1 pmx -5.4550 s1
+SETCONSTANT kxe 0.0000 s1
+EVAL hta 0 s1
+EVAL hz 0 s1
+EVAL ta 0 s1
+EVAL ix 0 s1
+EVAL hta 0 s1
+SETCONSTANT nx 0.2235 s1
+EVAL htu 1 htu -4.7720 s1
+EVAL ix 0 s1
+EVAL w 1 hz -4.8994 s1
+SETCONSTANT cb 0.0000 s1
+EVAL ldo 1 hz -5.6608 s1
+EVAL e 1 pmx -1.9904 s1
+EVAL acq 0 s1
+EVAL mtz 0 s1
+EVAL nx 0 s1
+EVAL n 1 htu 0.0000 s1
+EVAL hta 0 s1
+EVAL htu 1 htu 0.0000 s1
+EVAL w 1 hz -7.5673 s1
+SETANSWER cb 6 s1
+EVAL s 0 s1
+EVAL u 1 htu -3.2041 s1
+SETCONSTANT cb -7.4296 s1
+EVAL pmx 1 pmx 0.0000 s1
+EVAL acq 0 s1
+Y
+s1 ./s1.txt

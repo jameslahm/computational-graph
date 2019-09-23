@@ -1,0 +1,75 @@
+7
+a P
+b P
+c P
+s C 1.5000
+t V 2.0000
+g V 1.0000
+h C 0.0000
+56
+ag = a * a 
+ai = ag + ag
+av = b / c
+ao = ai - ag
+st = SIN t
+q = LOG a
+p = EXP b
+gh = SIGMOID c
+gt = TANH c
+gh = gh / st
+na = PRINT t
+tu = BIND p q
+tb = ASSERT av
+bo = c >= b
+G = GRAD gh
+Gc = G AT c
+F = GRAD av
+Fc = F AT c
+L = GRAD gt
+Lc = L AT c
+H = GRAD st
+Ht = H AT t
+S = GRAD q
+Sa = S AT a
+Q = GRAD p
+Qb = Q AT b
+N = GRAD na
+Nt = N AT t
+SG = GRAD tu
+SGq = SG AT q
+T = GRAD tb
+Tav = T AT av
+CI = GRAD bo
+CIc = CI AT c
+sm = GRAD ag
+sma = sm AT a
+ss = GRAD sma
+ssa = ss AT a
+wo = GRAD ao
+woa = wo AT a
+wi = GRAD woa
+wia = wi AT a
+W = GRAD Gc
+Wc = W AT c
+ui = GRAD Fc
+uic = ui AT c
+ip = GRAD Lc
+ipc = ip AT c
+qu = GRAD Ht
+qut = qu AT t
+qo = GRAD Sa
+qoa = qo AT a
+ol = GRAD Qb
+olb = ol AT b
+nx = GRAD olb
+nxb = nx AT b
+9
+EVAL ssa 1 a 1.0
+EVAL wia 1 a 1.0
+EVAL Wc 1 c 1.0
+EVAL uic 2 b 1.0 c 1.0
+EVAL ipc 1 c 1.0
+EVAL qut 0
+EVAL qoa 1 a 1.0
+EVAL olb 1 b 1.0
+EVAL nxb 1 b 1.0

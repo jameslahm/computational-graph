@@ -1,0 +1,159 @@
+6
+nr P
+kr V 0.0000
+yv C 0.0000
+kqi V -3.8350
+a P
+sq P
+95
+ny = a + kqi
+bv = GRAD ny
+dy = bv AT a
+f = bv AT a
+ny = bv AT a
+o = dy * kr
+vpx = bv AT a
+vg = bv AT a
+vpc = bv AT a
+vpx = bv AT a
+bv = bv AT a
+vpx = ny + o
+jdw = vpx + bv
+xeo = vg + sq
+vpc = ny + sq
+z = xeo + jdw
+o = vpc + xeo
+ma = kqi * vpc
+o = ma + xeo
+vg = bv * z
+vpx = nr + a
+z = GRAD vpx
+dy = vg * ny
+ma = vpc * xeo
+f = z AT nr
+j = z AT nr
+l = z AT nr
+q = kqi + o
+omu = bv * jdw
+c = z AT nr
+xtz = z AT nr
+q = z AT nr
+jdw = z AT nr
+s = z AT nr
+l = z AT nr
+ma = kqi + jdw
+u = z AT nr
+bke = z AT nr
+s = z AT nr
+vpx = z AT nr
+ny = vg * sq
+j = z AT nr
+vpx = z AT nr
+xeo = z AT nr
+b = z AT nr
+l = z AT nr
+l = vpx * xeo
+j = z AT nr
+q = z AT nr
+u = z AT nr
+s = s * b
+l = z AT nr
+dy = z AT nr
+vpx = z AT nr
+vpx = z AT nr
+dy = a + yv
+z = GRAD dy
+jdw = z AT yv
+ny = z AT yv
+u = z AT yv
+b = s + j
+vpc = z AT yv
+jdw = l + c
+dy = xtz + ny
+bke = b + ma
+xtz = z AT yv
+jdw = z AT yv
+j = z AT yv
+vpc = c * f
+b = z AT yv
+q = z AT yv
+q = z AT yv
+q = z AT yv
+vpx = z AT yv
+u = z AT yv
+vpc = z AT yv
+u = z AT yv
+vg = omu * vg
+omu = z AT yv
+omu = z AT yv
+xeo = z AT yv
+vpx = z AT yv
+xeo = z AT yv
+jdw = z AT yv
+bke = kqi * vg
+b = nr + ma
+j = vg + bv
+j = yv * b
+s = z AT yv
+q = z AT yv
+z = z AT yv
+j = z + j
+tback = ASSIGN kr kqi
+tes = kr * tback
+tback = tback * tes
+55
+EVAL xtz 1 a 0.0000
+EVAL f 2 nr 1.3561 a -4.2702
+EVAL o 2 a 0.0000 sq -3.9017
+EVAL bke 2 a -7.4778 sq -4.0188
+EVAL vpx 1 a 0.0000
+EVAL vpc 1 a 0.1849
+SETANSWER kqi 2
+SETANSWER kqi 3
+EVAL xtz 1 a 0.3890
+SETCONSTANT kqi -4.1138
+EVAL nr 1 nr 1.3029
+EVAL yv
+EVAL ma 2 nr 0.0000 a -0.5705
+EVAL yv
+EVAL nr 1 nr 0.0000
+EVAL kr
+EVAL kr
+SETANSWER kr 3
+SETCONSTANT kr 0.9464
+EVAL j 2 a -2.9525 nr -3.0360
+EVAL nr 1 nr 1.1428
+EVAL kqi
+SETCONSTANT kr -1.4376
+EVAL bv 1 a 0.0000
+SETANSWER kqi 6
+EVAL vpx 1 a -6.0676
+EVAL l 2 nr -7.5239 a -6.5239
+SETCONSTANT kqi -3.5264
+EVAL a 1 a -4.9255
+EVAL u 1 a -2.5056
+EVAL u 1 a -7.9256
+EVAL u 1 a -7.1207
+SETANSWER kr 16
+SETCONSTANT kr -3.7853
+EVAL vg 2 a -3.4801 sq -6.4256
+EVAL xeo 1 a 0.0000
+EVAL vpx 1 a -1.8162
+EVAL ny 1 a -2.5464
+EVAL xtz 1 a -0.0275
+EVAL u 1 a 1.2430
+EVAL bv 1 a -3.3077
+EVAL vg 2 a 0.0000 sq -0.8123
+SETCONSTANT kqi 1.9872
+EVAL bke 2 a 0.0000 sq -7.7755
+EVAL j 2 a 0.5787 nr -4.6206
+EVAL xeo 1 a -3.0004
+SETCONSTANT kr 0.0000
+SETCONSTANT kr -4.6597
+EVAL vpc 1 a -4.8677
+SETANSWER kr 20
+EVAL omu 1 a -0.7667
+EVAL bv 1 a -3.1908
+EVAL ny 1 a 0.0000
+EVAL tes
+EVAL tback

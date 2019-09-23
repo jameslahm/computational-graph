@@ -1,0 +1,150 @@
+3
+q V -7.2320
+zjf V -3.3870
+g V -1.8482
+68
+d = ASSERT g
+jwk = ASSERT g
+rkn = BIND g d
+p = q * rkn
+rkn = BIND rkn jwk
+t = BIND g d
+ify = ASSERT q
+k = zjf + rkn
+pt = ASSERT rkn
+n = BIND zjf ify
+hfz = BIND t jwk
+pt = g + rkn
+rkn = ASSERT q
+t = BIND p jwk
+lhy = pt * zjf
+pt = lhy * zjf
+iog = t + t
+t = BIND q d
+rkn = ASSERT q
+iog = BIND k d
+j = BIND zjf jwk
+pt = BIND j d
+r = BIND k ify
+w = zjf + j
+hfz = k + j
+ify = k + lhy
+vh = pt * hfz
+hfz = BIND ify d
+ify = ASSERT p
+rkh = BIND r rkn
+pt = ASSERT vh
+jwk = BIND q d
+hfz = BIND n pt
+r = BIND vh d
+w = BIND w ify
+bz = ASSERT jwk
+n = BIND g ify
+pt = w + jwk
+t = BIND hfz ify
+p = BIND n bz
+d = BIND p bz
+d = BIND zjf rkn
+pt = ASSERT jwk
+rv = ASSERT zjf
+hfz = BIND w rkn
+iog = BIND n rv
+jwk = vh * p
+n = BIND jwk ify
+vh = BIND w pt
+j = BIND j ify
+n = r + p
+w = BIND rkh bz
+iog = BIND d rv
+n = BIND vh rkn
+jwk = g * p
+agb = BIND p pt
+lhy = BIND lhy rv
+n = BIND k rv
+n = BIND iog bz
+n = BIND r ify
+sgh = BIND q bz
+vh = jwk + w
+w = BIND lhy rkn
+sgh = ASSERT w
+v = j + lhy
+p = g * t
+ud = n * agb
+pt = BIND lhy sgh
+76
+EVAL pt
+SETCONSTANT g 0.0000
+EVAL q
+EVAL vh
+EVAL agb
+SETANSWER zjf 3
+EVAL rkh
+EVAL pt
+EVAL v
+EVAL p
+EVAL pt
+SETANSWER g 3
+EVAL j
+EVAL pt
+SETCONSTANT g 0.8939
+SETANSWER g 3
+EVAL lhy
+EVAL hfz
+EVAL agb
+SETANSWER zjf 3
+EVAL rkh
+EVAL n
+EVAL iog
+EVAL agb
+EVAL vh
+EVAL q
+EVAL r
+EVAL d
+SETANSWER q 3
+EVAL rkh
+EVAL k
+SETANSWER q 3
+EVAL g
+EVAL d
+EVAL t
+EVAL pt
+SETCONSTANT zjf 0.0000
+EVAL rkh
+SETCONSTANT g 0.0000
+SETANSWER g 3
+SETCONSTANT q -5.3497
+EVAL t
+SETCONSTANT g -6.7258
+EVAL w
+EVAL zjf
+EVAL jwk
+SETCONSTANT zjf -7.5117
+SETANSWER q 3
+EVAL v
+SETANSWER zjf 26
+SETANSWER q 45
+EVAL zjf
+EVAL jwk
+SETANSWER zjf 45
+EVAL ud
+EVAL t
+EVAL j
+EVAL rkh
+SETCONSTANT q -1.8927
+EVAL vh
+EVAL k
+EVAL n
+EVAL zjf
+EVAL j
+SETANSWER zjf 52
+EVAL w
+SETANSWER zjf 26
+EVAL p
+EVAL r
+EVAL v
+EVAL ud
+SETANSWER zjf 63
+EVAL pt
+EVAL v
+EVAL jwk
+EVAL v

@@ -1,0 +1,51 @@
+7
+a P
+b P
+c P
+s C 1.5000
+t V 2.0000
+g V 1.0000
+h C 0.0000
+31
+av = b / c
+st = SIN t
+q = LOG a
+p = EXP b
+gh = SIGMOID c
+gt = TANH c
+gh = gh / st
+na = PRINT t
+tu = BIND p q
+tb = ASSERT av
+bo = c >= b
+G = GRAD gh
+Gc = G AT c
+F = GRAD av
+Fc = F AT c
+L = GRAD gt
+Lc = L AT c
+H = GRAD st
+Ht = H AT t
+S = GRAD q
+Sa = S AT a
+Q = GRAD p
+Qb = Q AT b
+N = GRAD na
+Nt = N AT t
+SG = GRAD tu
+SGq = SG AT q
+T = GRAD tb
+Tav = T AT av
+CI = GRAD bo
+CIc = CI AT c
+10
+EVAL Gc 1 c 1.0
+EVAL Fc 2 b 2.0 c 1.0
+EVAL Lc 1 c 2.0
+EVAL Ht 0
+EVAL Sa 1 a 2.0
+EVAL Qb 1 b 1.0
+EVAL Nt 0
+EVAL SGq 2 a 1.0 b 1.0
+EVAL Tav 2 b 1.0 c 2.0
+EVAL CIc 2 b 1.0 c 5.0

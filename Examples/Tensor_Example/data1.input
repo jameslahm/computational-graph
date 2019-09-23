@@ -1,0 +1,59 @@
+5
+a P
+b P
+c P
+s C 2 2 2 1 3 4 
+t V 3 4 1 0 0 1 1 0 1 1 1 1 1 1 
+24
+at = a + b
+atg = GRAD at 
+atga = atg AT a
+au = a - b
+aug = GRAD au 
+auga = aug AT a
+ao = a * b
+aog = GRAD ao 
+aoga = aog AT a
+av = b / c
+st = SIN t
+q = LOG a
+p = EXP b
+gh = SIGMOID c
+gt = TANH t
+gh = gh / st
+na = PRINT t
+tu = BIND p q
+tb = ASSERT av
+bo = c >= b
+bq = c <= b
+bh = c < b
+ng = b > a
+nm = c == b
+27
+EVAL at 2 a 1 1 2 b 3 3 1 2 1 2 1 1 1 1 2
+EVAL at 2 a 3 3 1 2 1 2 1 1 1 1 2 b 1 1 2
+EVAL at 2 a 2 2 1 2 3 4 b 2 2 4 1 2 3
+EVAL at 2 a 2 2 1 2 3 4 b 2 1 1 1
+EVAL au 2 a 1 1 2 b 3 3 1 2 1 2 1 1 1 1 2
+EVAL au 2 a 3 3 1 2 1 2 1 1 1 1 2 b 1 1 2
+EVAL au 2 a 2 2 1 2 3 4 b 2 2 4 1 2 3
+EVAL au 2 a 2 2 1 2 3 4 b 2 1 1 1 
+EVAL ao 2 a 1 1 2 b 3 2 1 2 2 1 1 1
+EVAL ao 2 a 3 2 1 2 2 1 1 1 b 1 1 2
+EVAL ao 2 a 2 3 1 2 2 2 2 1 b 3 2 1 2 2 1 1 1
+EVAL av 2 b 2 2 1 1 2 2 c 1 1 1
+EVAL av 2 b 1 1 1 c 3 2 1 2 1 1 1 2
+EVAL av 2 b 2 2 1 1 1 2 c 2 2 2 2 2 2
+EVAL st 0
+EVAL q 1 a 2 2 1 2 2 1
+EVAL p 1 b 2 2 1 1 3 1
+EVAL gh 1 c 2 2 1 1 1 1
+EVAL gt 0
+EVAL bo 2 b 1 1 0 c 2 2 0 1 0 1
+EVAL bq 2 b 2 2 0 1 0 1 c 1 1 0
+EVAL bh 2 b 2 2 1 0 1 1 c 2 2 0 1 0 1
+EVAL ng 2 a 3 2 1 5 3 4 2 6 b 3 2 4 1 2 7 0 1
+EVAL nm 2 b 3 2 0 1 0 0 1 0 c 3 2 0 1 0 0 1 0
+EVAL atga 1 a 2 3 1 2 3 4 5 6
+EVAL auga 1 a 1 2 1 2 
+EVAL aoga 2 a 1 2 1 1 b 2 1 2 2 

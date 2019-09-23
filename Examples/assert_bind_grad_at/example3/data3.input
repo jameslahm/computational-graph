@@ -1,0 +1,152 @@
+6
+jnr P
+oek C 0.0000
+zm C 0.3098
+qr P
+lmv P
+a V 0.0000
+72
+abl = a * jnr
+zc = GRAD abl
+noq = zm + oek
+jr = zc AT a
+crs = zc AT a
+nv = GRAD noq
+m = zc AT a
+jb = nv AT oek
+cd = jb * m
+crs = zc AT a
+abl = nv AT oek
+sw = zc AT a
+m = jb * oek
+f = nv AT oek
+jr = m * f
+y = nv AT oek
+ejy = zc AT a
+ejy = nv AT oek
+jb = jb + crs
+nv = nv AT oek
+sw = zc AT jnr
+f = zc AT jnr
+jr = zc AT jnr
+ys = zc AT jnr
+t = zc AT jnr
+noq = zc AT jnr
+ejy = zc AT jnr
+crs = zc AT jnr
+ejy = ys + sw
+nv = zc AT jnr
+zc = t * jnr
+f = zm * qr
+cd = GRAD f
+t = cd AT zm
+ys = cd AT zm
+noq = cd AT zm
+m = cd AT zm
+l = cd AT zm
+nv = m + crs
+igr = zc + y
+nv = igr + qr
+abl = jr + zc
+jb = oek + jr
+crs = cd AT zm
+hjt = cd AT zm
+d = jnr + crs
+zc = cd AT zm
+vw = cd AT zm
+ejy = jnr + jr
+l = cd AT zm
+t = cd AT zm
+jr = cd AT zm
+hjt = cd AT zm
+vw = cd AT zm
+bey = cd AT zm
+sw = cd AT zm
+ejy = vw + ejy
+bey = cd AT zm
+sw = cd AT zm
+sxr = zm + qr
+sxr = cd AT zm
+hjt = hjt * qr
+jr = cd AT zm
+vw = cd AT zm
+vw = m * hjt
+sxr = cd AT zm
+ys = cd AT zm
+crs = cd AT zm
+pi = cd AT zm
+sw = cd AT zm
+pi = cd AT zm
+crs = cd AT zm
+71
+EVAL vw 1 qr -3.4574
+EVAL y
+SETANSWER a 1
+SETANSWER a 2
+EVAL sw 1 qr -3.7147
+EVAL jr 1 qr -2.3357
+EVAL zc 1 qr -0.8334
+EVAL bey 1 qr -1.7527
+EVAL vw 1 qr -0.6109
+EVAL jnr 1 jnr -2.9663
+EVAL nv 2 jnr -1.7573 qr -0.0208
+EVAL jb 1 jnr 1.2153
+EVAL lmv 1 lmv -4.1130
+EVAL vw 1 qr -3.4346
+SETANSWER a 8
+EVAL bey 1 qr -4.4746
+EVAL vw 1 qr -2.3143
+SETANSWER a 1
+EVAL abl 1 jnr -4.6913
+SETANSWER a 8
+EVAL zc 1 qr 0.0000
+SETCONSTANT a 0.1483
+EVAL jnr 1 jnr 0.0000
+EVAL jnr
+EVAL zm
+EVAL ejy 2 qr -3.8460 jnr 0.0000
+EVAL ejy 2 qr 0.6159 jnr -1.7508
+EVAL nv 2 jnr 0.0000 qr -4.9963
+EVAL jnr 1 jnr -4.6473
+EVAL sxr 1 qr -0.5604
+SETANSWER a 13
+EVAL oek
+EVAL igr 1 jnr -7.0792
+EVAL d 2 jnr -6.0311 qr 0.3963
+EVAL f
+EVAL crs 1 qr -3.2100
+SETANSWER a 1
+SETANSWER a 34
+EVAL vw 1 qr 0.0000
+EVAL a
+EVAL abl 1 jnr -0.6224
+EVAL a
+EVAL zc 1 qr -4.4315
+EVAL oek
+EVAL zm
+EVAL noq 1 qr -3.7542
+EVAL sw 1 qr 0.0000
+EVAL nv 2 jnr -3.4310 qr -7.0599
+EVAL igr 1 jnr -7.4977
+EVAL jnr 1 jnr -7.0148
+EVAL crs 1 qr -0.4392
+EVAL zc 1 qr 0.0000
+EVAL ys 1 qr -5.2446
+EVAL sxr 1 qr 0.0000
+EVAL y
+EVAL lmv
+EVAL d 2 jnr -0.6346 qr 0.4624
+EVAL qr 1 qr -3.3067
+EVAL vw 1 qr -0.4304
+EVAL crs 1 qr -4.6062
+EVAL vw 1 qr -2.9141
+EVAL jr 1 qr 0.0000
+EVAL crs 1 qr -0.8445
+EVAL abl 1 jnr 0.0000
+EVAL ys 1 qr 0.0000
+EVAL oek
+EVAL hjt 1 qr -6.9180
+SETCONSTANT a -7.3305
+EVAL bey 1 qr 0.0000
+EVAL vw 1 qr -5.3725
+EVAL qr 1 qr 0.0000

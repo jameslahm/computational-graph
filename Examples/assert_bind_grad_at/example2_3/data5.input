@@ -1,0 +1,157 @@
+8
+si V -4.2182
+k P
+h V 0.0000
+pt V -6.6278
+oli P
+l C -7.1351
+qja V -3.4496
+iwb P
+90
+co = ASSERT l
+f = iwb + si
+qv = BIND qja co
+mr = GRAD f
+rdu = ASSERT iwb
+fze = BIND qv co
+r = BIND pt rdu
+z = BIND r co
+y = ASSERT oli
+y = BIND f y
+s = ASSERT qja
+rdu = BIND r rdu
+wy = mr AT si
+u = qja * si
+s = k * si
+wy = BIND f co
+pdr = BIND iwb co
+mr = ASSERT k
+qv = ASSERT oli
+rbx = ASSERT si
+u = u + l
+z = BIND l co
+a = u * y
+sx = GRAD s
+y = sx AT si
+omn = GRAD u
+mr = BIND fze co
+z = ASSERT k
+r = omn AT si
+y = BIND rdu rbx
+rdu = sx AT si
+wlu = iwb * pdr
+f = wy * wlu
+fze = BIND y co
+omn = BIND s co
+co = ASSERT y
+dar = BIND omn rbx
+s = sx AT si
+mr = BIND f qv
+pdr = sx AT si
+qv = sx AT si
+fze = BIND rdu z
+sx = sx AT si
+s = ASSERT dar
+dar = ASSERT l
+wlu = ASSERT y
+z = BIND fze dar
+s = BIND k co
+rbx = BIND pdr wlu
+pdr = ASSERT mr
+y = ASSERT k
+y = z + iwb
+co = f * oli
+ulm = rbx * u
+z = BIND f pdr
+mr = ASSERT pt
+fze = BIND qja dar
+mr = BIND ulm wlu
+f = BIND mr dar
+rbx = BIND s wlu
+f = ASSERT fze
+y = BIND rbx dar
+rdu = BIND si f
+sx = iwb + s
+pdr = qv * z
+y = qv + oli
+dar = ASSERT a
+mr = BIND rdu wlu
+pdr = ASSERT co
+s = BIND si pdr
+s = BIND fze wlu
+a = BIND fze f
+mr = GRAD u
+a = mr AT si
+dar = BIND a f
+r = BIND qja f
+lm = BIND ulm wlu
+rbx = BIND qv wlu
+a = BIND l f
+lm = BIND rbx f
+pdr = BIND a pdr
+omn = mr AT si
+a = ASSERT r
+mr = mr AT si
+sx = fze * h
+f = BIND si f
+s = ASSERT iwb
+dtu = pdr * pdr
+pdr = BIND dtu a
+z = BIND co a
+56
+EVAL iwb 1 iwb 1.0585
+SETCONSTANT si 1.9240
+EVAL u
+EVAL dtu 2 iwb -2.8154 oli -6.5816
+EVAL dtu 2 iwb 0.0000 oli 1.4215
+EVAL rbx 2 k -6.6676 iwb -1.6453
+EVAL k
+EVAL sx
+EVAL ulm 2 k 0.0000 iwb -6.7978
+SETCONSTANT si -1.0089
+EVAL co 2 iwb -2.3653 oli -1.8502
+EVAL pt
+SETCONSTANT h -6.6915
+EVAL wy 1 iwb -5.7995
+SETANSWER h 3
+EVAL u
+EVAL dar
+EVAL qja
+EVAL z 2 iwb -0.1212 oli -1.1931
+EVAL qv 1 k -5.1624
+EVAL l
+EVAL iwb 1 iwb -4.6805
+EVAL wy 1 iwb 1.8418
+EVAL qja
+EVAL qv 1 k 0.0000
+EVAL co 2 iwb -6.9295 oli 0.0000
+EVAL qv 1 k -0.5798
+SETCONSTANT qja -0.8990
+EVAL fze
+EVAL y 2 k 0.0000 oli -3.3938
+EVAL lm 2 k 0.3312 iwb -7.4133
+EVAL omn
+EVAL pdr 2 iwb -1.7273 oli -5.9779
+SETANSWER si 25
+EVAL rbx 2 k 0.0000 iwb -2.6888
+EVAL f
+EVAL qja
+EVAL f
+EVAL dtu 2 iwb 0.0000 oli -4.2814
+EVAL y 2 k 0.0000 oli 0.4105
+EVAL qja
+EVAL ulm 2 k 0.0000 iwb -2.6396
+SETCONSTANT si -4.4847
+EVAL lm 2 k 0.3158 iwb 1.3325
+EVAL u
+SETCONSTANT h -6.5698
+EVAL rdu
+EVAL h
+EVAL pt
+EVAL pt
+EVAL iwb 1 iwb 0.0000
+EVAL f
+SETANSWER pt 48
+EVAL wy 1 iwb -7.8673
+EVAL wy 1 iwb -0.5583
+EVAL fze

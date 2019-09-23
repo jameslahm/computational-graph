@@ -1,0 +1,166 @@
+3
+x P
+vt P
+ytq P
+98
+yh = ASSERT x
+yn = vt + vt
+auj = ASSERT ytq
+twq = vt + yn
+yn = BIND twq yh
+ds = BIND x auj
+gc = GRAD twq
+wop = ASSERT yn
+ds = gc AT vt
+g = gc AT vt
+vw = gc AT vt
+wop = gc AT vt
+gc = ASSERT twq
+yn = yn + g
+yn = BIND ytq auj
+kzg = BIND ytq yh
+gk = GRAD twq
+w = gk AT vt
+gk = gk AT vt
+bh = BIND ytq yh
+j = BIND g gc
+d = BIND yn auj
+vp = BIND vt gc
+kzg = BIND w gc
+dw = ASSERT gk
+dw = BIND ytq auj
+z = ASSERT bh
+qw = ASSERT yn
+kzg = ASSERT wop
+gc = ASSERT w
+yn = g * ds
+vp = BIND w kzg
+nck = BIND d yh
+gk = BIND j z
+d = ASSERT vw
+ei = ASSERT vw
+qw = BIND gk d
+d = BIND g gc
+qw = BIND g ei
+nck = BIND ds kzg
+c = twq * j
+zkn = BIND ds kzg
+auj = wop * d
+gk = twq + j
+w = BIND x gc
+zkn = ASSERT w
+vp = ASSERT bh
+c = ASSERT bh
+j = vw * ytq
+vp = ASSERT nck
+ds = ASSERT dw
+qw = ASSERT gk
+j = BIND vw vp
+yn = BIND dw gc
+ei = yn * ytq
+nck = BIND w z
+w = BIND j qw
+vp = BIND gk yh
+ei = BIND dw c
+twq = vw * w
+dw = ASSERT gk
+ei = BIND j dw
+z = BIND w yh
+yn = BIND ei dw
+ds = BIND vt zkn
+ei = ASSERT ytq
+ei = ASSERT twq
+ei = BIND nck yh
+w = BIND auj c
+w = ASSERT j
+yn = BIND vt c
+yn = BIND ds gc
+ei = ASSERT auj
+zkn = BIND x kzg
+p = BIND z c
+kzg = ASSERT g
+dw = BIND vw kzg
+vp = zkn + nck
+d = ASSERT dw
+g = BIND j d
+u = BIND vt kzg
+p = BIND auj d
+kzg = ASSERT z
+nck = p * auj
+vw = BIND ds kzg
+bp = BIND p ei
+c = BIND auj ei
+yh = BIND z kzg
+bh = BIND yn w
+twq = ASSERT c
+yn = x * auj
+ds = ASSERT zkn
+gc = ASSERT j
+auj = BIND bh kzg
+qw = ASSERT vp
+yh = BIND c w
+nck = BIND vw qw
+ei = vw + z
+62
+EVAL yn 2 x 0.0000 vt 0.0000
+EVAL auj 2 vt 0.0000 x -1.4381
+EVAL bh 2 vt -5.0597 x 0.0000
+EVAL x 1 x -6.4043
+EVAL yh 1 vt -1.2536
+EVAL ei 2 vt -7.6818 x -5.2209
+EVAL c 1 vt 0.0000
+EVAL c 1 vt -2.7042
+EVAL nck 3 vt -3.8575 x -0.9034 ytq 0.1424
+EVAL bp 1 vt -1.9990
+EVAL ytq 1 ytq -5.7659
+EVAL bp 1 vt -3.2584
+EVAL bp 1 vt 0.9769
+EVAL nck 3 vt 0.0000 x -2.1960 ytq -6.7905
+EVAL p 1 vt -3.3056
+EVAL nck 3 vt -3.5906 x -2.1588 ytq 0.0000
+EVAL yn 2 x -5.7623 vt 0.0000
+EVAL x 1 x 0.0000
+EVAL vw 2 vt -7.6146 x -0.9113
+EVAL x 1 x 1.1025
+EVAL j 1 vt -1.1923
+EVAL j 1 vt -2.3603
+EVAL vw 2 vt -6.6123 x 0.0000
+EVAL auj 2 vt 0.0000 x 0.0000
+EVAL vt 1 vt -2.8830
+EVAL vp 3 x 0.0000 vt -6.6997 ytq 1.0382
+EVAL yn 2 x -2.8329 vt 1.1563
+EVAL wop 1 vt -4.1010
+EVAL x 1 x -3.5671
+EVAL z 2 vt -1.3347 x -0.1750
+EVAL g 1 vt 0.0000
+EVAL ytq 1 ytq -1.3286
+EVAL vt 1 vt -5.5806
+EVAL wop 1 vt -7.6965
+EVAL vt 1 vt 0.0000
+EVAL wop 1 vt 0.0000
+EVAL yh 1 vt -1.1705
+EVAL auj 2 vt -4.4555 x -3.6644
+EVAL auj 2 vt 0.0000 x -4.4196
+EVAL p 1 vt -7.9953
+EVAL nck 3 vt -3.3516 x -4.7704 ytq -5.1350
+EVAL bp 1 vt 0.0000
+EVAL ei 2 vt -0.6218 x -4.1772
+EVAL z 2 vt -4.4294 x -4.8933
+EVAL ytq 1 ytq -4.9103
+EVAL zkn 2 x 0.8474 vt 0.0000
+EVAL bh 2 vt -0.8136 x 0.0000
+EVAL vw 2 vt 1.5536 x -1.6662
+EVAL c 1 vt -4.8821
+EVAL dw 1 vt 0.0000
+EVAL dw 1 vt 0.7699
+EVAL c 1 vt 0.0000
+EVAL ei 2 vt -7.5189 x 0.0000
+EVAL dw 1 vt -4.3993
+EVAL c 1 vt -1.0763
+EVAL wop 1 vt -3.5901
+EVAL zkn 2 x -7.1281 vt -4.5611
+EVAL yn 2 x 1.6467 vt 1.5936
+EVAL wop 1 vt -6.3226
+EVAL vt
+EVAL wop 1 vt -3.6932
+EVAL ytq 1 ytq 0.0000

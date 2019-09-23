@@ -1,0 +1,122 @@
+4
+fxd C 0.0000
+bt C 1.4688
+hqy P
+jry V -1.0465
+59
+pc = jry * bt
+fni = GRAD pc
+ns = fni AT jry
+nfu = jry * fxd
+pc = GRAD nfu
+o = fni AT jry
+dq = fni AT jry
+ns = fni AT jry
+eh = nfu + nfu
+xd = GRAD eh
+o = fni AT jry
+pc = GRAD nfu
+dq = xd AT fxd
+nfu = xd AT fxd
+eh = eh + jry
+fge = fni AT jry
+euv = fni AT bt
+o = xd AT fxd
+e = xd AT fxd
+vl = fni AT bt
+j = fni AT bt
+jag = xd AT fxd
+fge = fni AT bt
+jds = xd AT fxd
+dq = xd AT fxd
+zou = xd AT fxd
+euv = fni AT bt
+mak = xd AT fxd
+xd = vl * bt
+dq = jag + eh
+dq = eh * bt
+j = fni AT bt
+bf = GRAD dq
+qp = fni AT bt
+fge = bf AT fxd
+e = fni AT bt
+dq = fni AT bt
+xd = GRAD eh
+mak = mak * euv
+o = xd AT fxd
+fni = fni AT bt
+j = xd AT fxd
+jag = xd AT fxd
+eb = xd AT fxd
+iko = bf AT fxd
+eb = xd AT fxd
+bf = bf AT fxd
+e = xd AT fxd
+o = xd AT fxd
+zou = j + o
+iur = xd AT fxd
+o = xd AT fxd
+pc = xd AT fxd
+eb = xd AT fxd
+eh = mak * o
+eb = xd AT fxd
+euv = e + jag
+zou = euv * mak
+e = xd AT fxd
+56
+EVAL nfu
+EVAL fge
+SETANSWER jry 2
+EVAL eh
+EVAL jag
+EVAL qp
+EVAL jry
+EVAL mak
+EVAL iur
+EVAL pc
+EVAL euv
+EVAL e
+EVAL eh
+EVAL vl
+EVAL fxd
+EVAL vl
+SETCONSTANT jry 0.0000
+EVAL jag
+EVAL iur
+EVAL bt
+EVAL ns
+EVAL fni
+EVAL bf
+EVAL j
+EVAL jds
+EVAL qp
+SETCONSTANT jry 0.0000
+EVAL e
+SETANSWER jry 6
+EVAL zou
+EVAL nfu
+EVAL eh
+SETANSWER jry 30
+EVAL bt
+EVAL vl
+EVAL fni
+SETCONSTANT jry 0.0000
+EVAL nfu
+EVAL zou
+EVAL bt
+EVAL fni
+SETCONSTANT jry 0.0000
+SETCONSTANT jry -2.5362
+EVAL eh
+EVAL hqy 1 hqy -1.1616
+EVAL jry
+EVAL fge
+EVAL iur
+EVAL jds
+SETANSWER jry 13
+EVAL o
+EVAL jds
+SETANSWER jry 25
+SETCONSTANT jry 0.0000
+EVAL ns
+SETANSWER jry 12

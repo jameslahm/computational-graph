@@ -1,0 +1,78 @@
+Load the existing session from files?(Y/N)
+Enter the session name you are working on and file path
+ERROR: Assertion failed 
+-0
+ERROR: Assertion failed 
+0.8365
+0
+1
+0.761594
+-0.372394
+1
+ERROR: Assertion failed 
+0.164395
+-0.999991
+ERROR: Assertion failed 
+ERROR: Assertion failed 
+0.8365
+200
+0
+ERROR: Assertion failed 
+1.66739
+0
+200
+ERROR: Assertion failed 
+ERROR: Assertion failed 
+ERROR: Assertion failed 
+ERROR: Assertion failed 
+0
+ERROR: Placeholder missing
+ERROR: LOG operator's input must be positive
+ERROR: Assertion failed 
+0
+ERROR: Assertion failed 
+ERROR: Assertion failed 
+ERROR: Assertion failed 
+-0.378922
+1
+ERROR: Assertion failed 
+0
+ERROR: Assertion failed 
+-0.589273
+ERROR: Assertion failed 
+0.164395
+ERROR: Assertion failed 
+0
+ERROR: Assertion failed 
+ERROR: Assertion failed 
+ERROR: Assertion failed 
+0.164395
+0.164395
+ERROR: Assertion failed 
+0
+ERROR: LOG operator's input must be positive
+ERROR: Assertion failed 
+-0.999963
+ERROR: Assertion failed 
+ERROR: Placeholder missing
+0
+0
+ERROR: Assertion failed 
+-4.772
+0
+ERROR: LOG operator's input must be positive
+ERROR: Assertion failed 
+ERROR: Assertion failed 
+2.71828
+0
+0.2235
+0
+1
+0
+ERROR: LOG operator's input must be positive
+PRINT operator: e = 0
+0.8365
+-3.20465
+0
+2.71828
+Save the session from this program? (Y/N)

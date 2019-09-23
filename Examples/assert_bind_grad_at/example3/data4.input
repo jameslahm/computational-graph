@@ -1,0 +1,155 @@
+6
+v P
+vn P
+ips P
+w C -7.9450
+she P
+dg C -7.1076
+86
+lp = ips + ips
+s = GRAD lp
+c = s AT ips
+gxi = c + she
+l = s AT ips
+kc = gxi * vn
+l = kc * w
+fda = s AT ips
+rw = s AT ips
+fda = s AT ips
+lp = rw + she
+no = c + ips
+t = s AT ips
+c = s AT ips
+l = s AT ips
+l = s AT ips
+lp = lp * v
+uj = she + vn
+kc = GRAD uj
+u = kc AT vn
+sc = t + w
+rw = s AT ips
+u = ips + t
+fda = s AT ips
+t = s AT ips
+wkm = kc AT vn
+uj = lp + ips
+sk = kc AT vn
+m = uj * rw
+uj = kc AT vn
+uj = kc AT vn
+uj = kc AT vn
+sk = s AT ips
+sc = s AT ips
+o = rw * fda
+u = s AT ips
+fda = kc AT vn
+t = s AT ips
+lp = kc AT vn
+m = kc AT vn
+o = kc AT vn
+gc = wkm * u
+lp = vn * sc
+ud = s AT ips
+gc = kc AT vn
+l = s AT ips
+ud = kc AT vn
+l = kc AT vn
+fda = l + sc
+f = kc AT vn
+rw = o + o
+rw = c * f
+gc = lp * u
+no = s AT ips
+a = s AT ips
+s = s AT ips
+o = kc AT vn
+o = kc AT vn
+kc = m + f
+fda = a * gxi
+ud = c * ips
+sk = a + gc
+l = m * gc
+o = sk + fda
+c = sc * gc
+t = t * m
+uj = uj + o
+m = t * vn
+a = s + w
+m = s * l
+u = o * gxi
+sk = t + v
+sk = c + gc
+u = f * lp
+sc = t + gxi
+gxi = vn + she
+sk = t * a
+t = GRAD gxi
+a = t AT vn
+kc = t AT vn
+gxi = a * no
+t = uj * kc
+f = u + lp
+c = w * kc
+sk = o * rw
+no = sk * sc
+60
+EVAL uj 3 she -2.7032 vn -0.3926 ips 1.1827
+EVAL rw 3 ips 0.0000 she -3.9150 vn 0.0000
+EVAL uj 3 she 0.0000 vn -7.1080 ips -0.9828
+EVAL uj 3 she -2.7232 vn -1.2912 ips 0.0000
+EVAL vn 1 vn 0.0000
+EVAL ips 1 ips -5.4689
+EVAL sc 3 ips 1.4195 she -3.7467 vn -1.2843
+EVAL no 3 ips -2.9300 she 0.9453 vn -6.9546
+EVAL wkm 2 she -4.9543 vn 0.0000
+EVAL u 3 she -2.7280 vn -4.7522 ips 0.7505
+EVAL v 1 v -6.4631
+EVAL t 3 she 0.0000 vn 0.0000 ips -5.9854
+EVAL m 3 ips -7.3875 she 0.0000 vn 1.4415
+EVAL dg
+EVAL no 3 ips -5.5867 she 0.4467 vn 0.0000
+EVAL w
+EVAL kc 2 vn -4.6816 she -3.2440
+EVAL rw 3 ips 0.0000 she -6.9300 vn -6.8810
+EVAL fda 2 ips -1.6106 she 0.0000
+EVAL wkm 2 she -0.7802 vn -0.6083
+EVAL c 2 vn -6.3576 she 0.0000
+EVAL s 1 ips 0.0000
+EVAL no 3 ips -1.8187 she 0.0000 vn 0.0000
+EVAL v 1 v -4.0300
+EVAL uj 3 she -1.4391 vn -3.9060 ips -4.0752
+EVAL ud 1 ips 0.4813
+EVAL o 3 ips -6.4512 she 0.0000 vn -1.4381
+EVAL s 1 ips 0.4202
+EVAL s 1 ips -7.1605
+EVAL gxi 3 vn -1.9034 she -1.4659 ips -5.4809
+EVAL o 3 ips -5.3115 she -4.8578 vn 0.0000
+EVAL t 3 she 0.0000 vn 0.0551 ips 0.0000
+EVAL ips
+EVAL m 3 ips 0.0000 she -6.8101 vn 0.0000
+EVAL sk 3 ips 0.0000 she -1.9883 vn 0.0000
+EVAL l 3 she -4.8567 vn 0.0000 ips 0.0000
+EVAL dg
+EVAL wkm 2 she -1.5450 vn 0.6494
+EVAL rw 3 ips -7.3172 she -6.2403 vn -3.5046
+EVAL ips
+EVAL kc 2 vn -6.6996 she 1.1203
+EVAL sc 3 ips 1.5520 she -6.3533 vn -7.7072
+EVAL ud 1 ips -7.4167
+EVAL s 1 ips -7.8485
+EVAL v
+EVAL u 3 she 0.0000 vn 0.0000 ips -3.6331
+EVAL no 3 ips -5.3512 she 0.0000 vn -4.4530
+EVAL m 3 ips -7.4326 she 0.0000 vn 0.0000
+EVAL sk 3 ips 0.0000 she 0.0000 vn -4.7983
+EVAL she 1 she 0.0000
+EVAL c 2 vn -2.7848 she 1.3662
+EVAL sc 3 ips 0.0000 she 0.0000 vn 0.0000
+EVAL c 2 vn -0.4767 she -1.1077
+EVAL kc 2 vn 0.0000 she -3.0473
+EVAL ud 1 ips 0.0000
+EVAL dg
+EVAL o 3 ips 0.0000 she 0.0000 vn -3.1346
+EVAL gxi 3 vn -3.2416 she 0.0000 ips 0.0000
+EVAL kc 2 vn 1.6749 she -4.0114
+EVAL vn

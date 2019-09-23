@@ -1,0 +1,186 @@
+7
+vn V -1.3211
+xvj P
+i C -6.2354
+bp V -0.4228
+w V 0.0000
+she V 0.5171
+fqn C 0.0000
+103
+tv = i + she
+pf = GRAD tv
+yn = xvj * xvj
+z = pf AT i
+gap = pf AT i
+wuo = xvj + xvj
+nd = pf AT i
+pf = w * gap
+wuo = GRAD yn
+f = wuo AT xvj
+d = wuo AT xvj
+crh = vn * xvj
+mg = GRAD crh
+mg = wuo AT xvj
+tq = yn * mg
+n = wuo AT xvj
+uzh = wuo AT xvj
+czp = wuo AT xvj
+yn = wuo AT xvj
+nd = crh * z
+g = wuo AT xvj
+tv = wuo AT xvj
+z = wuo AT xvj
+f = uzh + nd
+d = crh + w
+wuo = GRAD d
+tq = n * g
+z = wuo AT vn
+yn = wuo AT vn
+trz = z + she
+gap = wuo AT vn
+wuo = wuo AT vn
+z = uzh + wuo
+f = nd * d
+n = GRAD d
+wuo = n AT vn
+crh = n AT vn
+nd = n AT vn
+z = n AT vn
+s = n AT vn
+f = n AT vn
+czp = n AT vn
+tv = n AT vn
+s = n AT vn
+tq = n AT vn
+nd = d * trz
+czp = n AT vn
+wuo = n AT vn
+wuo = n AT vn
+wuo = n AT vn
+nd = i + she
+n = n AT vn
+s = GRAD nd
+crh = s AT i
+f = s AT i
+yn = s AT i
+uzh = tv * fqn
+pf = d * crh
+yn = tv + f
+n = s AT i
+pf = s AT i
+trz = s AT i
+g = s AT i
+d = trz * vn
+gap = s AT i
+crh = s AT i
+s = s AT i
+s = yn + d
+xzc = n * trz
+trz = tq + fqn
+g = tv * vn
+tv = d + s
+mg = nd * uzh
+f = vn + vn
+czp = crh * z
+n = GRAD f
+g = pf * bp
+wuo = z * mg
+yn = n AT vn
+crh = xzc + mg
+b = n AT vn
+pf = n AT vn
+okh = n AT vn
+wuo = trz * xzc
+nd = she + tv
+yn = s + yn
+trz = czp * yn
+wuo = n AT vn
+gap = n AT vn
+n = n AT vn
+mg = wuo + czp
+pf = okh + vn
+n = gap * w
+yn = s * b
+yn = g + pf
+b = f * mg
+d = yn * xzc
+nd = she + tv
+who = ASSIGN w she
+lin = w + who
+nnu = w + she
+vv = ASSIGN w vn
+ling = w + vv
+73
+SETCONSTANT she 1.8428
+SETCONSTANT w -0.8579
+EVAL gap
+EVAL okh
+SETANSWER she 3
+EVAL trz 1 xvj 0.0000
+EVAL g
+EVAL yn
+SETCONSTANT bp -7.5615
+EVAL tv 1 xvj 1.0319
+EVAL vn
+EVAL pf
+EVAL s 1 xvj 0.0975
+EVAL czp 1 xvj 0.0000
+SETANSWER w 6
+EVAL vn
+EVAL vn
+SETANSWER bp 16
+SETCONSTANT bp 0.0000
+EVAL w
+EVAL tq 1 xvj 0.0000
+EVAL she
+SETCONSTANT bp 0.0000
+EVAL uzh 1 xvj 0.0000
+EVAL vn
+EVAL nd 1 xvj 0.0000
+EVAL xzc
+EVAL trz 1 xvj 0.0000
+EVAL yn
+SETCONSTANT vn -1.5450
+EVAL tv 1 xvj 0.0000
+EVAL g
+SETCONSTANT w 0.0000
+EVAL fqn
+EVAL xzc
+SETANSWER w 6
+SETCONSTANT vn 0.0000
+EVAL b 1 xvj 1.9270
+EVAL yn
+EVAL pf
+EVAL b 1 xvj 0.0000
+EVAL bp
+SETCONSTANT bp -7.0507
+EVAL uzh 1 xvj 0.0000
+SETANSWER vn 14
+EVAL vn
+SETCONSTANT vn -3.6918
+EVAL tq 1 xvj 0.0000
+EVAL f
+EVAL she
+SETCONSTANT she -7.8660
+SETANSWER bp 7
+EVAL d
+SETCONSTANT w 0.0000
+EVAL i
+EVAL mg 1 xvj -4.9418
+EVAL she
+EVAL uzh 1 xvj 0.0000
+EVAL d
+EVAL czp 1 xvj 0.0000
+EVAL bp
+SETCONSTANT vn 1.8498
+EVAL tq 1 xvj -2.0814
+EVAL b 1 xvj 0.0000
+EVAL b 1 xvj 0.0000
+EVAL f
+EVAL tq 1 xvj -3.6702
+EVAL b 1 xvj 0.1581
+EVAL tv 1 xvj -5.2832
+EVAL lin
+EVAL nnu
+EVAL ling
+EVAL w
