@@ -17,7 +17,7 @@
 
 ### Environment
 
-Linux ， Windows 平台皆可
+Linux ， Windows
 
 ```
 make

@@ -414,7 +414,7 @@ GRAPHNAME.BuildCalcNode<CALCNODECLASS<TYPENAME>>(...);
 
 包含四个双目运算节点：加减乘除四则运算
 
-详见 [basic_calc_pack/Notes.md](basic_calc_pack/Notes.md)
+详见 [basic_calc_pack/README.md](../basic_calc_pack/README.md)
 
 ### 派生类包：高级计算节点 `advanced_calc_pack.h`
 
@@ -422,13 +422,13 @@ GRAPHNAME.BuildCalcNode<CALCNODECLASS<TYPENAME>>(...);
 包含Assign运算节点、求任意阶导数节点
 包含后续建立神经网络需要使用的relu节点、softmax节点
 
-详见 [advanced_calc_pack/Notes.md](basic_calc_pack/Notes.md)
+详见 [advanced_calc_pack/README.md](../basic_calc_pack/README.md)
 
 ### 派生类包：比较计算节点 `compare_calc_pack.h`
 
 包含五个双目逻辑运算节点和一个三目条件计算节点以及Bind节点
 
-详见 [compare_calc_pack/Notes.md](compare_calc_pack/Notes.md)
+详见 [compare_calc_pack/README.md](../compare_calc_pack/Notes.md)
 
 <br>
 
@@ -474,7 +474,7 @@ $$\nabla_WE(W)=\frac{2}{N}X^T(XW-Y)$$
 
 
 ## 其他说明：
-主文件测试的输入样例与正确输出均在[Examples](Examples/)
+主文件测试的输入样例与正确输出均在[Examples](../Examples/)
 ## 如何自定义计算节点
 
 `COSTOM_NODE_CLASS.h`
